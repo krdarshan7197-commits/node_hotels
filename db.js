@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 // const uri = 'mongodb://127.0.0.1:27017/hotel';
 
 //Mongodb Atlas connection
-const mongoURL =  'mongodb+srv://krdarshan7197_db_user:Golu@1109@cluster0.rmbogy8.mongodb.net/'
+const mongoURL = process.env.MONGODB_URL;
 
 
 // console.log(JSON.stringify(uri));
